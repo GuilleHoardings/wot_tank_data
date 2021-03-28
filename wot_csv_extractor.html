@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WOT CSV extractor</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+
+    <meta charset="UTF-8">
+  </head>
+  
+  <body>
+  
+    <main>
+      <h1>WOT CSV extractor</h1>
+
+      <p>This fetches a CSV file using Warwaming API. You need to create a <code>config.js</code>
+        file with your <code>APP_ID</code>.
+      </p>
+
+      <p>
+        <button type="button" onclick="isConfigValid()">Test config</button>
+      </p>
+
+      <p>
+        <button type="button" onclick="vehicles()">Fetch data</button>
+      </p>
+     
+      <pre>
+        <div id='progress'></div>
+      </pre>
+
+      <pre>
+        <div id='log'></div>
+      </pre>
+
+      <script src="config.js"></script>
+      <script src="wot_csv_extractor.js"></script>
+    </main>
+  </body>
+</html>
