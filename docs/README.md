@@ -7,4 +7,4 @@ In order to have a custom.css, I had to change the file `<venv>\share\jupyter\nb
 
 In order to export a notebook to be published, run this command from the root directory:
 
-    jupyter nbconvert --to=html '.\1 General analysis.ipynb' --no-input --no-prompt --output "docs/1 General analysis.html"
+    jupyter nbconvert --to=html '.\1 General analysis.ipynb' --no-input --no-prompt --output "docs/1-General-analysis.html"
